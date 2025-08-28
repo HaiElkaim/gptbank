@@ -1,5 +1,5 @@
-import bm25 from 'wink-bm25-text';
-import { CsvRecord, RagResult } from './types';
+import bm25 from 'wink-bm25';
+import { RagResult } from './types';
 import { getAllCsvRecords } from './csv';
 
 const engine = new bm25();
@@ -47,7 +47,7 @@ export async function search(query: string, topK = 8): Promise<RagResult[]> {
 
   const results = engine.search(query, topK);
 
-  const rankedResults = results.map(([docIndex, score]) => {
+  const rankedResults = results.map(([docIndex, score]: [number, number]) => {
     const doc = allDocs[docIndex as number];
     const freshnessBoost = calculateFreshnessBoost(doc.last_updated);
     const approvedBoost = doc.approved === 'true' ? 1.2 : 1.0;
@@ -62,7 +62,7 @@ export async function search(query: string, topK = 8): Promise<RagResult[]> {
   });
 
   // Re-sort by final score
-  rankedResults.sort((a, b) => b.score - a.score);
+  rankedResults.sort((a: RagResult, b: RagResult) => b.score - a.score);
 
   return rankedResults.slice(0, 5); // Return top 5 after re-ranking
 }

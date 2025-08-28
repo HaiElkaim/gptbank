@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "dev": "netlify dev",
+    "dev": "npx netlify dev",
     "build": "npm run build:client && npm run build:functions",
     "build:client": "vite build",
     "build:functions": "netlify build",
@@ -32,6 +32,6 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "undici": "^6.19.2",
-    "wink-bm25-text": "^3.0.0"
+    "wink-bm25": "^1.0.3"
   }
 }
