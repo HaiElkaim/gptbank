@@ -1,4 +1,4 @@
-import bm25 from 'wink-bm25';
+import bm25 from 'wink-bm25-text-search';
 import { RagResult } from './types';
 import { getAllCsvRecords } from './csv';
 

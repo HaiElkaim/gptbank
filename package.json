@@ -32,6 +32,6 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "undici": "^6.19.2",
-    "wink-bm25": "^1.0.3"
+    "wink-bm25-text-search": "^1.0.3"
   }
 }

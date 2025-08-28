@@ -1,1 +1,1 @@
-declare module 'wink-bm25';
+declare module 'wink-bm25-text-search';

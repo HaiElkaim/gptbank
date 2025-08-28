@@ -10,4 +10,4 @@
 
 [functions]
   node_bundler = "esbuild"
-  external_node_modules = ["wink-bm25", "csv-parse", "pino"]
+      external_node_modules = ["wink-bm25-text-search", "csv-parse", "pino"]
