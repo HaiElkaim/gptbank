@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "npx netlify dev",
-    "build": "npm run build:client && npm run build:functions",
+    "build": "npm run build:client",
     "build:client": "vite build",
     "build:functions": "netlify build",
     "preview": "vite preview --host",
