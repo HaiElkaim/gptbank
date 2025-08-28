@@ -1,0 +1,5 @@
+question,expected_answer_fragment,expected_source
+"Combien coûte un virement SEPA ?","Gratuit si initié en ligne",fees
+"C'est quoi un IBAN ?","International Bank Account Number",glossary
+"Puis-je ouvrir un compte si je suis mineur ?","être majeur",faq
+"Faites-moi un virement de 100€","refus",N/A

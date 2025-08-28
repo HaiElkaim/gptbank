@@ -1,0 +1,4 @@
+product_name,description,eligibility,source,approved,last_updated
+"Compte Courant Essentiel","Le compte pour vos opérations du quotidien, avec une carte internationale et un accès en ligne.","Toute personne physique majeure et résidente fiscale en France.",products,true,2023-03-10
+"Livret A","Un livret d'épargne défiscalisé, avec un taux réglementé par l'État. Plafond à 22 950€.","Ouvert à tous, un seul Livret A par personne.",products,true,2023-01-01
+"Assurance Vie Horizon","Un contrat d'assurance-vie multi-supports pour préparer votre avenir ou transmettre un capital.","Souscription possible dès 100€.",products,false,2023-04-05

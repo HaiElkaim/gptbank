@@ -1,0 +1,5 @@
+operation,fee_eur,details,source,approved,last_updated
+"Virement SEPA occasionnel","0.00","Gratuit si initié en ligne, 1€ en agence.",fees,true,2023-06-01
+"Virement international (hors SEPA)","25.00","Des frais de correspondants peuvent s'appliquer en sus.",fees,true,2023-06-01
+"Cotisation carte Classique","45.00","Par an, débitée en une fois en janvier.",fees,true,2022-12-15
+"Retrait DAB hors réseau","1.00","À partir du 4ème retrait par mois.",fees,true,2023-02-01
